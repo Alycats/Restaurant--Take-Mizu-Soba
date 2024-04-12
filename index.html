@@ -6,43 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Take Mizu Soba | Home </title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
+   
 
 <!--Header Starts-->
-    <header class="header">
+    <header class="header" id="header">
     <div>
         <h1 class="title" id="title"> Take Mizu Soba</h1>
         <a href="#" class="logo" id="logo"> <img src="Assets/logoplaceholder.png"></a>
     </div>
         <div id="main-bar" class="main-bar-line"></div>
-        <ul class="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="./Public/menu.html">Menu</a></li>
-            <li><a href="./Public/about.html">About</a></li>
-        </ul>
+        <div class="nav">
+            <ul class="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="./Public/menu.html">Menu</a></li>
+                <li><a href="./Public/about.html">About</a></li>
+            </ul>
+        </div>
+    
     </header>
 <!--Header Ends-->
    
+
 <!--Top of Page Starts Starts-->
 
-    <section class="contentOne" id="contentOne">
-        <div class="content-into">
-            <h2> Cool Message About Restaurant </h2>
-            <p>Short blerb about the restaunant introducing what the experience is like and highlighing why ppl want to eat here. </p>
+    <div class="contentOne" id="contentOne">
+        <div class="content-info">
+            <h2> Splash Into Something New! </h2>
+            <p>Ever wondered what a mountain and a noodle have in common, more than you think!</p>
          </div>        
-    </section>
+        </div>
 
 <!--Top of Page Ends-->
 
 <!--Top of Middle Page Starts-->
-    <section class="food" id="food">
-        <h2>Dive into our Ingredients</h2>
-        
-        <div class="food-row">
-            <img src="Assets/SobaNoodles.jpg"> <p> Made from local buckwheat and handcrafted in our kitchen, these soba noodles are a taste and texture sensetion.</p>
-            <img src="Assets/SobaBowl.jpg"> <p>Our in house dipping broth is a bold combination of savory soy sauce and sweet dashi. </p>
+    <div class="food" id="food">
+        <h2>Dive <br> into our <br> Ingredients</h2>
+       <!--- <div class="container">
+            <div class="mySlides">
+                <div class="numbertext"> 1 / 8 </div>
+                <img src="Assets/SobaNoodles.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 2 / 8 </div>
+                <img src="Assets/SesameSeeds.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 3 / 8 </div>
+                <img src="Assets/Mushrooms.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 4 / 8 </div>
+                <img src="Assets/LeafyGreen.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 5 / 8 </div>
+                <img src="Assets/DiakonRadish.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 6 / 8 </div>
+                <img src="Assets/Carrots.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 7 / 8 </div>
+                <img src="Assets/SobaBowl.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"> 8 / 8 </div>
+                <img src="Assets/TempuraVeggies.jpg" style="width: 100%">
+            </div>
+            <a class="prev" onclick="plusSlibes(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlibes(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id-"caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="Assets/SobaNoodles.jpg" style="width: 100%;" onclick="currentSlide(1)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/SesameSeeds.jpg" style="width: 100%;" onclick="currentSlide(2)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/Mushrooms.jpg" style="width: 100%;" onclick="currentSlide(3)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/LeafyGreen.jpg" style="width: 100%;" onclick="currentSlide(4)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/DiakonRadish.jpg" style="width: 100%;" onclick="currentSlide(5)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/Carrots.jpg" style="width: 100%;" onclick="currentSlide(6)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/SobaBowl.jpg" style="width: 100%;" onclick="currentSlide(7)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Assets/TempuraVeggies.jpg" style="width: 100%;" onclick="currentSlide(8)" alt="">
+                </div>
+            </div>
+        </div> --->
+   <div class="food-row">
+            <img src="Assets/SobaNoodles.jpg" alt="long bowl of soba, veggies around"> <p> Made from local buckwheat and handcrafted in our kitchen, these soba noodles are a taste and texture sensetion.</p>
+            <img src="Assets/SobaBowl.jpg" alt=""> <p>Our in house dipping broth is a bold combination of savory soy sauce and sweet dashi. </p>
             <img src="Assets/SesameSeeds.jpg"> <p>Sesame seeds are handprocessed into our most saughtafter sesame oil.</p>
             <img src="Assets/Mushrooms.jpg"> <p>An arrangmet of mushrooms are avalible to give the soba an earthy flavor.</p>
             <img src="Assets/LeafyGreen.jpg"> <p>Local wild greens are combined to make a senstional seasonal side salad.</p>
@@ -51,21 +122,21 @@
             <img src="Assets/TempuraVeggies.jpg"> <p>A selection of seasonal vegitables that are tempura fried and served with house dipping sauce. </p>
         </div>
         <p>There are a variety of other food options/see fixed menu on menu tab</p>
-    </section>
+    </div>
 
-
+<!--End of Middle Part-->
 
 <footer class="footer">
     <nav>
-        <ul>
+        <ul class="footerli">
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="./Public/about.html">About</a></li>
-            <li><a href="./Public/faq.html">FAQ</a></li>
             <li><a href="./Public/menu.html">Menu</a></li>
     
         </ul>
     </nav>
 </footer>
     
+
 </body>
 </html>

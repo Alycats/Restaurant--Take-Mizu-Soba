@@ -1,30 +1,164 @@
- *{
-    background-color: antiquewhite;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-.header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background: seagreen;
-    display: flex;
-    justify-content: space-between;
-    align-items: centre;
-    z-index: 100;
-    border-radius: 100px, 100px, 0px, 0px;
-    margin: 1rem auto;
- }
 
- .contentOne{
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    background: blue;
-    width: 100%;
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3{
+  font-family:'Playfair Display';
+}
+
+li,p {
+  font-size: 'Latos';
+}
+  .header{
+   display: block;
+   text-align: center;
+   overflow: hidden; 
+   height: 180px;
+   /* background-color: aqua;*/
+  border-radius: 15% / 100% 100%  ; 
+  z-index: 1;
+}
+
+  .title{
+   display: contents;
+   padding: 10px;
+   width: px;
+   margin: 0 auto;
+   font-size: 60px;
+   color: rgb(9, 72, 24);
+  }
+
+
+  header a img{
+  vertical-align: middle;
+  width: 90px;
+
+  }
+  
+  .navbar{
+   display: flex;
+   justify-content:space-evenly;
+   list-style: none;
+   margin: 0 auto;
+  }
+
+  .navbar a{
+   font-size: 25px;
+   color:rgb(9, 72, 24);
+   font-weight: 500;
+   text-decoration: none;
+  }
+
+
+  .contentOne{
+  background: rgb(166, 210, 176);
+  position: flex;
+  height: 170px;
+  display: flex;
+  border-radius:50px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  }
+
+  .content-info{
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    font-style: oblique;
+    color: rgb(9, 72, 24);
+  }
+
+.food{
+  background-image: url(https://media.gettyimages.com/id/1226975890/video/water-running-through-the-half-round-bamboo-poles-at-iljiam-temple-samsan-myeon-haenam-gun.jpg?s=640x640&k=20&c=82IM9BH3QRVaLHDQWKnoEnUucolcE776lU_AP5HY2tM=);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+  .food h2{
+   text-align: center;
+   font-size: 110px;
+   display: flexbox;
+   align-self: auto;
+  }
+  
+  .food-row img{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 2rem;
+  }
+
+  .food-row p{
+    text-align: center;
+    font-size: 0%;
+  }
+
+.food p{
+  text-align: center;
+  font-size: larger;
+}
+.menuList img{
+  width: 300px;
+  display: flex;
+  margin: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 2rem;
+}
+.titlemenu{
+  text-align: center;
+}
+
+.menuList{
+text-align: center;
+color: rgb(9, 72, 24);
+}
+.menuList ul{
+text-align: center;
+color: rgb(9, 72, 24);
+list-style: none;
+}
+
+.items,.drinks,.dessert{
+  list-style: none;
+}
+.titleAbout{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(9, 72, 24);
+  font-family: Playfair Display;
+  border-color: rgb(166, 210, 176);
+}
+
+.AboutBody{
+  text-align: center;
+  color:rgb(9, 72, 24);
+}
+
+  .footer{
+    display: block;
+    text-align: center;
+    overflow: hidden; 
+    height: 50px;
+    background-color: rgb(166, 210, 176);
+    border-radius: 10% / 100% 100%  ;  
+   
  }
+  .footerli{
+    display: flex;
+   justify-content:space-evenly;
+   list-style: none;
+   margin: 0 auto;
+   color:rgb(9, 72, 24);
+  }
+
+  body{
+    background-color: rgb(237, 244, 238);
+  }
+ 
